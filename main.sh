@@ -1,9 +1,17 @@
 #!/bin/bash
 
-# created by JH Hacker
+# created by Unknown Person
 # IP Lookup Tool
 
-source ./banner.sh
+banner(){
+banner "#############################################"
+banner "##                                         ##"
+banner "##             IP Lookup                   ##"
+banner "##                                         ##"
+banner "##        Created by Unknown Person        ##"
+banner "##                                         ##"
+banner "#############################################"
+}
 
 main(){
 # Prompt the user to enter an IP address if not provided as an argument
